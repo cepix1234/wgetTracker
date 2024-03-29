@@ -6,5 +6,5 @@ public interface IConsoleLogger
     /// Log string to console.
     /// </summary>
     /// <param name="str">String to print to console</param>
-    void Log(String str);
+    void Log (String str);
 }

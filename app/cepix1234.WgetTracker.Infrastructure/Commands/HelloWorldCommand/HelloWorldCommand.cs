@@ -4,15 +4,15 @@ using Spectre.Console.Cli;
 
 namespace cepix1234.WgetTracker.Infrastructure.Commands.HelloWorldCommand;
 
-public class HelloWorldCommand : AsyncCommand<HelloWorldCommandSettings>
+public class HelloWorldCommand: AsyncCommand<HelloWorldCommandSettings>
 {
     private readonly IConsoleLogger _consoleLogger;
-
-    public HelloWorldCommand(IConsoleLogger consoleLogger)
+    
+    public HelloWorldCommand( IConsoleLogger consoleLogger)
     {
         _consoleLogger = consoleLogger;
     }
-
+    
     public override async Task<int> ExecuteAsync(CommandContext context, HelloWorldCommandSettings settings)
     {
         _consoleLogger.Log("Hello world!");
