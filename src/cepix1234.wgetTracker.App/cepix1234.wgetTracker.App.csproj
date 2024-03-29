@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFrameWork>net7.0</TargetFrameWork>
+        <Nullable>enable</Nullable>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <UseRidGraph>true</UseRidGraph>
+        <SelfContained>true</SelfContained>
+        <RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers>
+        <PublishSingleFile>true</PublishSingleFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0"/>
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Spectre.Console.Cli.Extensions.DependencyInjection" Version="0.2.0"/>
+        <PackageReference Include="Spectre.Console" Version="0.47.0"/>
+        <PackageReference Include="Spectre.Console.Cli" Version="0.47.0"/>
+    </ItemGroup>
+    <ItemGroup>
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\cepix1234.wgetTracker.Core\cepix1234.wgetTracker.Core.csproj">
+            <Project>{78ef4b41-ba32-4191-99a0-1075db62ff23}</Project>
+            <Name>cepix1234.wgetTracker.Core</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\cepix1234.wgetTracker.Infrastructure\cepix1234.wgetTracker.Infrastructure.csproj">
+            <Project>{218de586-411a-4aa9-86fd-2d3c856f0d68}</Project>
+            <Name>cepix1234.wgetTracker.Infrastructure</Name>
+        </ProjectReference>
+    </ItemGroup>
+</Project>

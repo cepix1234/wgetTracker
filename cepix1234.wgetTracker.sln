@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepix1234.wgetTracker.App", "src\cepix1234.wgetTracker.App\cepix1234.wgetTracker.App.csproj", "{9A3AA68E-A14D-4E97-8E85-82D1FEFDA4F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepix1234.wgetTracker.Core", "src\cepix1234.wgetTracker.Core\cepix1234.wgetTracker.Core.csproj", "{22F6B6EE-88B7-4EC5-A326-596836CE5C51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepix1234.wgetTracker.Infrastructure", "src\cepix1234.wgetTracker.Infrastructure\cepix1234.wgetTracker.Infrastructure.csproj", "{94C10F51-796A-4C4B-AF3C-1906CDAE9A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cepix1234.wgetTracker.Core.tests", "tests\cepix1234.wgetTracker.Core.tests\cepix1234.wgetTracker.Core.tests.csproj", "{4129096B-5833-4E9E-BAF3-5E4EE1FF330A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3D0A530A-7EE8-45C0-9463-43CA624706E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{485732CE-C2D9-4A8C-AA06-163E30B9264E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A3AA68E-A14D-4E97-8E85-82D1FEFDA4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3AA68E-A14D-4E97-8E85-82D1FEFDA4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3AA68E-A14D-4E97-8E85-82D1FEFDA4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3AA68E-A14D-4E97-8E85-82D1FEFDA4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F6B6EE-88B7-4EC5-A326-596836CE5C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F6B6EE-88B7-4EC5-A326-596836CE5C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F6B6EE-88B7-4EC5-A326-596836CE5C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F6B6EE-88B7-4EC5-A326-596836CE5C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C10F51-796A-4C4B-AF3C-1906CDAE9A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C10F51-796A-4C4B-AF3C-1906CDAE9A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C10F51-796A-4C4B-AF3C-1906CDAE9A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C10F51-796A-4C4B-AF3C-1906CDAE9A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4129096B-5833-4E9E-BAF3-5E4EE1FF330A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4129096B-5833-4E9E-BAF3-5E4EE1FF330A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4129096B-5833-4E9E-BAF3-5E4EE1FF330A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4129096B-5833-4E9E-BAF3-5E4EE1FF330A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4129096B-5833-4E9E-BAF3-5E4EE1FF330A} = {485732CE-C2D9-4A8C-AA06-163E30B9264E}
+		{9A3AA68E-A14D-4E97-8E85-82D1FEFDA4F0} = {3D0A530A-7EE8-45C0-9463-43CA624706E3}
+		{22F6B6EE-88B7-4EC5-A326-596836CE5C51} = {3D0A530A-7EE8-45C0-9463-43CA624706E3}
+		{94C10F51-796A-4C4B-AF3C-1906CDAE9A48} = {3D0A530A-7EE8-45C0-9463-43CA624706E3}
+	EndGlobalSection
+EndGlobal
