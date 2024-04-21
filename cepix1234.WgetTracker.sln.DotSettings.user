@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5c40d259_002Daa4a_002D4c5c_002Da7ed_002D66457e9d2bfd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AllAppSettignsDirectoriesAndPatternsAreUsedToGetFiles" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5A2B1231-5FD3-421E-A92D-62303F1FEA7B::net8.0::cepix1234.WgetTracker.Core.test.WgetOutputFileReaderTest.WgetOutputFileReaderGetsFileSize&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5A2B1231-5FD3-421E-A92D-62303F1FEA7B::net8.0::cepix1234.WgetTracker.Core.test.WgetOutputFileReaderTest.WgetOutputFileReaderGetsCurrentDownload&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5A2B1231-5FD3-421E-A92D-62303F1FEA7B::net8.0::cepix1234.WgetTracker.Core.test.WgetOutputFileReaderTest.WgetOutputFileReaderGetsCurrentDownloadNotAllDots&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5A2B1231-5FD3-421E-A92D-62303F1FEA7B::net8.0::cepix1234.WgetTracker.Core.test.FileCollectorServiceTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

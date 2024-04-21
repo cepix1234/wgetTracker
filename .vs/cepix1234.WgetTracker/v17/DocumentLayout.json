@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Git\\wgetTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CE82505-B314-4187-B0DD-6D31DC1A7E9D}|app\\cepix1234.WgetTracker.Core\\cepix1234.WgetTracker.Core.csproj|e:\\git\\wgettracker\\app\\cepix1234.wgettracker.core\\backgroundservices\\filecollectorworker\\service\\filecollectorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CE82505-B314-4187-B0DD-6D31DC1A7E9D}|app\\cepix1234.WgetTracker.Core\\cepix1234.WgetTracker.Core.csproj|solutionrelative:app\\cepix1234.wgettracker.core\\backgroundservices\\filecollectorworker\\service\\filecollectorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CE82505-B314-4187-B0DD-6D31DC1A7E9D}|app\\cepix1234.WgetTracker.Core\\cepix1234.WgetTracker.Core.csproj|e:\\git\\wgettracker\\app\\cepix1234.wgettracker.core\\backgroundservices\\filecollectorworker\\service\\fileprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CE82505-B314-4187-B0DD-6D31DC1A7E9D}|app\\cepix1234.WgetTracker.Core\\cepix1234.WgetTracker.Core.csproj|solutionrelative:app\\cepix1234.wgettracker.core\\backgroundservices\\filecollectorworker\\service\\fileprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileProvider.cs",
+              "DocumentMoniker": "E:\\Git\\wgetTracker\\app\\cepix1234.WgetTracker.Core\\BackgroundServices\\FileCollectorWorker\\Service\\FileProvider.cs",
+              "RelativeDocumentMoniker": "app\\cepix1234.WgetTracker.Core\\BackgroundServices\\FileCollectorWorker\\Service\\FileProvider.cs",
+              "ToolTip": "E:\\Git\\wgetTracker\\app\\cepix1234.WgetTracker.Core\\BackgroundServices\\FileCollectorWorker\\Service\\FileProvider.cs",
+              "RelativeToolTip": "app\\cepix1234.WgetTracker.Core\\BackgroundServices\\FileCollectorWorker\\Service\\FileProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T19:25:09.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileCollectorService.cs",
+              "DocumentMoniker": "E:\\Git\\wgetTracker\\app\\cepix1234.WgetTracker.Core\\BackgroundServices\\FileCollectorWorker\\Service\\FileCollectorService.cs",
+              "RelativeDocumentMoniker": "app\\cepix1234.WgetTracker.Core\\BackgroundServices\\FileCollectorWorker\\Service\\FileCollectorService.cs",
+              "ToolTip": "E:\\Git\\wgetTracker\\app\\cepix1234.WgetTracker.Core\\BackgroundServices\\FileCollectorWorker\\Service\\FileCollectorService.cs",
+              "RelativeToolTip": "app\\cepix1234.WgetTracker.Core\\BackgroundServices\\FileCollectorWorker\\Service\\FileCollectorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T19:24:44.783Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

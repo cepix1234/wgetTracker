@@ -30,6 +30,11 @@
         </None>
     </ItemGroup>
     <ItemGroup>
+        <None Update="WgetExample.out">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
         <ProjectReference Include="..\cepix1234.WgetTracker.Core\cepix1234.WgetTracker.Core.csproj">
             <Project>{78ef4b41-ba32-4191-99a0-1075db62ff23}</Project>
             <Name>cepix1234.WgetTracker.Core</Name>

@@ -3,7 +3,11 @@
 public class AppSettings
 {
     /// <summary>
-    /// Api key for api endpoint.
+    /// How many seconds should you wait for to collect wget output files.
     /// </summary>
-    public required string ApiKey { get; set; }
+    public required double FileCollectionTaskTimout { get; set; }
+
+    public required string[] WgetDirectories { get; init; } = ["."];
+
+    public required string[] WgetOutputPattern { get; init; } = ["*.out"];
 }
