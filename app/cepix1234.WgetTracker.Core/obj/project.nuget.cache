@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "igxgX4x43bVdUL2rH8UG8tslDhxMHV95RAB21ZHMO/Pk/LDOMRsGyj3w28ZUmL4wNCr7k0NkVdRsk0T9eDTOdQ==",
+  "dgSpecHash": "J4I6PUDennH9MtcW3ingergPTS35jPHn0PS4sgX/FpshvDBawNCPDd4jq9IIYLOHO3j3x1KibglPW8EmaQqPNA==",
   "success": true,
   "projectFilePath": "E:\\Git\\wgetTracker\\app\\cepix1234.WgetTracker.Core\\cepix1234.WgetTracker.Core.csproj",
   "expectedPackageFiles": [
@@ -31,16 +31,15 @@
     "C:\\Users\\blazo\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\blazo\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.2\\microsoft.net.illink.tasks.8.0.2.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\blazo\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.2\\microsoft.netcore.app.runtime.linux-x64.8.0.2.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.2\\microsoft.netcore.app.runtime.win-x64.8.0.2.nupkg.sha512",
+    "C:\\Users\\blazo\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.2\\microsoft.netcore.app.runtime.linux-x64.8.0.2.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.2\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.2.nupkg.sha512",
-    "C:\\Users\\blazo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.2\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.2.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.2\\microsoft.aspnetcore.app.runtime.win-x64.8.0.2.nupkg.sha512",
+    "C:\\Users\\blazo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.2\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.2.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.2\\microsoft.netcore.app.host.linux-x64.8.0.2.nupkg.sha512"
   ],
   "logs": []

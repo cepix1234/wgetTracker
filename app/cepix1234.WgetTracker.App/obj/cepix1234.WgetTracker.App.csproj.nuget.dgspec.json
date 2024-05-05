@@ -13,6 +13,7 @@
         "packagesPath": "C:\\Users\\blazo\\.nuget\\packages\\",
         "outputPath": "E:\\Git\\wgetTracker\\app\\cepix1234.WgetTracker.App\\obj\\",
         "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -30,7 +31,6 @@
         },
         "frameworks": {
           "net8.0": {
-            "targetAlias": "net8.0",
             "projectReferences": {
               "E:\\Git\\wgetTracker\\app\\cepix1234.WgetTracker.Core\\cepix1234.WgetTracker.Core.csproj": {
                 "projectPath": "E:\\Git\\wgetTracker\\app\\cepix1234.WgetTracker.Core\\cepix1234.WgetTracker.Core.csproj"
@@ -46,16 +46,10 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
-          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
@@ -193,11 +187,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -223,12 +212,6 @@
             "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[8.0.2, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.2, )",
-              "autoReferenced": true
             }
           },
           "imports": [
@@ -323,11 +306,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -349,12 +327,6 @@
             "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[8.0.2, )"
-            },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.2, )",
-              "autoReferenced": true
             },
             "Spectre.Console": {
               "target": "Package",
