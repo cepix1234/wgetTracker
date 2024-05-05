@@ -1,5 +1,4 @@
-﻿using System.IO.Abstractions;
-using cepix1234.WgetTracker.Core.WgetOutputReader;
+﻿using cepix1234.WgetTracker.Core.WgetOutputReader;
 using cepix1234.WgetTracker.Core.WgetOutputReader.Models;
 using cepix1234.WgetTracker.Core.Wrappers.Models;
 using Moq;
@@ -30,6 +29,13 @@ public class WgetOutputFileReaderTest
         wgetReader = new WgetOutputFileReader(fileReaderStub.Object);
     }
 
+    [Test]
+    public void WgetOutputFileReaderGetsFileName()
+    {
+        String fileName = wgetReader.FileName("WgetExample.out");
+        Assert.That(fileName, Is.EqualTo("P1010002.JPG"));
+    }
+    
     [Test]
     public void WgetOutputFileReaderGetsFileSize()
     {

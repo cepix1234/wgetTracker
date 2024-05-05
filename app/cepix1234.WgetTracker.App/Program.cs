@@ -1,5 +1,5 @@
-﻿using System.IO;
-using cepix1234.WgetTracker.Core;
+﻿using cepix1234.WgetTracker.Core;
+using cepix1234.WgetTracker.Core.BackgroundServices.FileCollectorWorker;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
@@ -22,17 +22,18 @@ RegisterServices(serviceCollection);
 
 using var registrar = new DependencyInjectionRegistrar(serviceCollection);
 var app = new CommandApp(registrar);
-app.SetDefaultCommand<HelloWorldCommand>();
+app.SetDefaultCommand<WgetStatusCommand>();
 app.Configure(
     config =>
     {
         config.ValidateExamples();
         
-        config.AddCommand<HelloWorldCommand>("helloWorld")
-            .WithAlias("hw")
-            .WithDescription("Write hello world and if Argument passed check if it is in .*a.* format.")
-            .WithExample("helloWorld", "[Argument]");
+        config.AddCommand<WgetStatusCommand>("wgetStatus")
+            .WithAlias("ws")
+            .WithDescription("Get Status of all wget output files.")
+            .WithExample("wgetStatus");
     });
+
 
 return await app.RunAsync(args);
 

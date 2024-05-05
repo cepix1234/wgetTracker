@@ -35,7 +35,7 @@ public class FileCollectorService(IOptions<AppSettings> appSettings, IFileProvid
         {
             if (!_fileAlreadyLoaded(wgetFilePath))
             {
-                _wgetFiles.Add(new WgetFile.WgetFile(wgetFilePath, wgetOutputFileReader));
+                _wgetFiles.Add(new WgetFile.WgetFile(wgetFilePath, wgetOutputFileReader,wgetFiles[0].Split(Path.DirectorySeparatorChar)[^2]));
             }
         }
         

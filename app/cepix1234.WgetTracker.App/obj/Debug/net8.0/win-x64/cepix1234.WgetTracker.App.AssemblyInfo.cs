@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cepix1234.WgetTracker.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6b32d1d74d403d4d1f3818be7574a78b23cd7dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("cepix1234.WgetTracker.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cepix1234.WgetTracker.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,4 +8,9 @@ public class ConsoleLogger: IConsoleLogger
     {
         Console.WriteLine(str);
     }
+
+    public void ClearConsole()
+    {
+        Console.Clear();
+    }
 }

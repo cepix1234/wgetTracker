@@ -8,6 +8,11 @@ public interface IWgetFile
     string FilePath { get; }
 
     /// <summary>
+    /// Directory under which the wget file is.
+    /// </summary>
+    string Direcory { get; }
+
+    /// <summary>
     /// Get size of the file being downloaded.
     /// </summary>
     /// <returns>Size in Bytes</returns>
@@ -18,4 +23,16 @@ public interface IWgetFile
     /// </summary>
     /// <returns>Return download status in Bytes</returns>
     Int64 Status();
+
+    /// <summary>
+    /// Name of file being download.
+    /// </summary>
+    /// <returns>String of file name being downloaded</returns>
+    String FileName();
+
+    /// <summary>
+    /// Wget file status to string to output to console.
+    /// </summary>
+    /// <returns>Status of wget file.</returns>
+    String ToString();
 }

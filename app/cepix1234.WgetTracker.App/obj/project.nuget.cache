@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SCj1YXg88M4l5ZKLcA1QhsI5eFbc9MuIz4pvAqQXHKY6rKZI5WsQqXQsYsVZodKNmt0jeX5x9d3rekhQRp/bFg==",
+  "dgSpecHash": "wiMRBoe/Tnmex48Zmt0Ft0hwJap8ylv4a4j0e/v3fIS44987tzAJgARdcvwAdZuNO6S1BOjkDd2RQ9edSLHfvA==",
   "success": true,
   "projectFilePath": "E:\\Git\\wgetTracker\\app\\cepix1234.WgetTracker.App\\cepix1234.WgetTracker.App.csproj",
   "expectedPackageFiles": [
@@ -42,11 +42,11 @@
     "C:\\Users\\blazo\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\blazo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.2\\microsoft.netcore.app.runtime.win-x64.8.0.2.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.2\\microsoft.netcore.app.runtime.linux-x64.8.0.2.nupkg.sha512",
+    "C:\\Users\\blazo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.2\\microsoft.netcore.app.runtime.win-x64.8.0.2.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.2\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.2.nupkg.sha512",
-    "C:\\Users\\blazo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.2\\microsoft.aspnetcore.app.runtime.win-x64.8.0.2.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.2\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.2.nupkg.sha512",
+    "C:\\Users\\blazo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.2\\microsoft.aspnetcore.app.runtime.win-x64.8.0.2.nupkg.sha512",
     "C:\\Users\\blazo\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.2\\microsoft.netcore.app.host.linux-x64.8.0.2.nupkg.sha512"
   ],
   "logs": []

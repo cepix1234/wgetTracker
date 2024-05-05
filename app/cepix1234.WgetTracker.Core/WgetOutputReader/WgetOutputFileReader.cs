@@ -9,8 +9,8 @@ public class WgetOutputFileReader(IFileReader fileReader): IWgetOutputFileReader
     public Int64 FileSize(string filePath)
     {
         string lengthLine = fileReader.readFileFiles(filePath).Skip(4).Take(1).First();
-        string[] lengthLiesSplit = lengthLine.Split(" ");
-        return Int64.Parse(lengthLiesSplit[1].Trim());
+        string[] lengthLinesSplit = lengthLine.Split(" ");
+        return Int64.Parse(lengthLinesSplit[1].Trim());
     }
 
     public IWgetFileStatusReturn FileStatus(string filePath, int skipLines = 6)
@@ -20,5 +20,18 @@ public class WgetOutputFileReader(IFileReader fileReader): IWgetOutputFileReader
         int dotCount = lastStatusLine.Count(f => f == '.');
         int kibibyteBase = int.Parse(lastStatusLine.Split("K")[0].Trim());
         return new WgetFileStatusReturn(skipLines + lengthLine.Length - 1, SizeConverter.CovertToB(kibibyteBase + dotCount));
+    }
+
+    public String FileName(string filePath)
+    {
+        string savingToLine = fileReader.readFileFiles(filePath).Skip(5).Take(1).First();
+        string[] savingToLineSplit = savingToLine.Split(":");
+        return savingToLineSplit[1].Trim().Trim((char)8217, (char)8216);
+    }
+
+    public Boolean FileSaved(string filePath)
+    {
+        string[] savedLines = fileReader.readFileFiles(filePath).Skip(6).Where(line => line.Contains(" saved [")).ToArray();
+        return savedLines.Length > 0;
     }
 }

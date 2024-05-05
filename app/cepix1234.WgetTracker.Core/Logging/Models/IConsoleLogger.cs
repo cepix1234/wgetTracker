@@ -7,4 +7,9 @@ public interface IConsoleLogger
     /// </summary>
     /// <param name="str">String to print to console</param>
     void Log (String str);
+
+    /// <summary>
+    /// Clear console screen.
+    /// </summary>
+    void ClearConsole();
 }

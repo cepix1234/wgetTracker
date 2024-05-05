@@ -21,10 +21,6 @@ eapp/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Models/IF
 -app/cepix1234.WgetTracker.App/WgetExample.out,b\1\b135fa4ec800989abe0c22ac870d5e69a3132fe3
 o
 ?app/cepix1234.WgetTracker.Core.test/FileCollectorServiceTest.cs,1\8\18149466ba779dc510601062641b6a8d5f353cd1
-`
-0app/cepix1234.WgetTracker.Core.test/UnitTest1.cs,6\d\6d8d904a1999e29fc30d697b7017273f198b47cc
-ˆ
-Xapp/cepix1234.WgetTracker.Infrastructure/Commands/HelloWorldCommand/HelloWorldCommand.cs,3\2\3268cb5e58021a9f4f98667d9078d008b956ad33
 k
 ;app/cepix1234.WgetTracker.Core/WgetFile/Models/IWgetFile.cs,b\f\bf6d366250f63eda8420d42495d43cc5b96bf07a
 c
@@ -67,3 +63,13 @@ dapp/cepix1234.WgetTracker.Core.test/obj/Debug/net8.0/cepix1234.WgetTracker.Core
 `app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.AssemblyInfo.cs,d\b\dbd9ef8e8c9ff00349e716b7c8ba74b10843e5ca
 ª
 zapp/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.GeneratedMSBuildEditorConfig.editorconfig,d\d\dd675a01e5e2e3167812ec6c173f1098881d391a
+p
+@app/cepix1234.WgetTracker.Infrastructure/InfrastructureLoader.cs,0\b\0bc831fee409c63ad23d678a5a0d7e4c469e2b3b
+™
+iapp/cepix1234.WgetTracker.Infrastructure/Commands/WgetStatusCommand/Settings/WgetStatusCommandSettings.cs,2\e\2e95fc3d5a455568fd279a3f5cc6284bfa99e90c
+ˆ
+Xapp/cepix1234.WgetTracker.Infrastructure/Commands/WgetStatusCommand/WgetStatusCommand.cs,6\9\69d7bad034e7d1d42a91e479df4e4f2c005c11bb
+¤
+tapp/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.GeneratedMSBuildEditorConfig.editorconfig,6\6\66c56f037c2c391c4211caa6c3498662e767cb65
+¹
+ˆapp/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig,7\3\7358466946dbcefe23e06c03bb3a3d4e41340d9f

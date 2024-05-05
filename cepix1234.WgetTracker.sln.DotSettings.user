@@ -5,5 +5,6 @@
     &lt;TestId&gt;NUnit3x::5A2B1231-5FD3-421E-A92D-62303F1FEA7B::net8.0::cepix1234.WgetTracker.Core.test.WgetOutputFileReaderTest.WgetOutputFileReaderGetsCurrentDownload&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::5A2B1231-5FD3-421E-A92D-62303F1FEA7B::net8.0::cepix1234.WgetTracker.Core.test.WgetOutputFileReaderTest.WgetOutputFileReaderGetsCurrentDownloadNotAllDots&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::5A2B1231-5FD3-421E-A92D-62303F1FEA7B::net8.0::cepix1234.WgetTracker.Core.test.FileCollectorServiceTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5A2B1231-5FD3-421E-A92D-62303F1FEA7B::net8.0::cepix1234.WgetTracker.Core.test.WgetOutputFileReaderTest.WgetOutputFileReaderGetsFileName&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

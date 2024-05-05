@@ -18,4 +18,18 @@ public interface IWgetOutputFileReader
     /// <param name="skipLines">How meany lines to skip default 6</param>
     /// <returns>Length of file downloaded in Bytes</returns>
     IWgetFileStatusReturn FileStatus(string filePath, int skipLines = 6);
+
+    /// <summary>
+    /// Get file name that is being downloaded.
+    /// </summary>
+    /// <param name="filePath">Path to wget output file.</param>
+    /// <returns>Name of file being returned.</returns>
+    String FileName(string filePath);
+
+    /// <summary>
+    /// Is file saved/finished downloading.
+    /// </summary>
+    /// <param name="FilePath">Path to wget output file.</param>
+    /// <returns>Is file saved.</returns>
+    Boolean FileSaved(string FilePath);
 }
