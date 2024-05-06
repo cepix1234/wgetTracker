@@ -73,3 +73,5 @@ Xapp/cepix1234.WgetTracker.Infrastructure/Commands/WgetStatusCommand/WgetStatusC
 tapp/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.GeneratedMSBuildEditorConfig.editorconfig,6\6\66c56f037c2c391c4211caa6c3498662e767cb65
 ¹
 ˆapp/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig,7\3\7358466946dbcefe23e06c03bb3a3d4e41340d9f
+„
+Tapp/cepix1234.WgetTracker.Infrastructure/cepix1234.WgetTracker.Infrastructure.csproj,e\6\e695472eb347e011a5f22de9e8e9d5b148ba5ff8
