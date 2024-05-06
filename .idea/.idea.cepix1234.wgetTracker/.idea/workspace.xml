@@ -7,60 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355ce7e7-cd1e-40e5-9f5c-740f0103f173" name="Changes" comment="Added worker to get wget files every x seconds.&#10;Added tests for parsing wget files.&#10;Added wget output of file status.">
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/bin/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/bin/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/bin/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.exe" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/bin/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/bin/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/bin/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/bin/Debug/net8.0/win-x64/cepix1234.WgetTracker.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/bin/Debug/net8.0/win-x64/cepix1234.WgetTracker.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/bin/Debug/net8.0/win-x64/cepix1234.WgetTracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/bin/Debug/net8.0/win-x64/cepix1234.WgetTracker.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/cepix1234.WgetTracker.App.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/ref/cepix1234.WgetTracker.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/ref/cepix1234.WgetTracker.App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/refint/cepix1234.WgetTracker.App.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/refint/cepix1234.WgetTracker.App.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/singlefilehost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/Debug/net8.0/win-x64/singlefilehost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/cepix1234.WgetTracker.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/cepix1234.WgetTracker.App.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/cepix1234.WgetTracker.App.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/cepix1234.WgetTracker.App.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/obj/Debug/net8.0/cepix1234.WgetTracker.Core.test.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/obj/Debug/net8.0/cepix1234.WgetTracker.Core.test.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/obj/Debug/net8.0/cepix1234.WgetTracker.Core.test.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/obj/Debug/net8.0/cepix1234.WgetTracker.Core.test.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/obj/Debug/net8.0/cepix1234.WgetTracker.Core.test.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/obj/Debug/net8.0/cepix1234.WgetTracker.Core.test.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/bin/Debug/net8.0/cepix1234.WgetTracker.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/bin/Debug/net8.0/cepix1234.WgetTracker.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/ref/cepix1234.WgetTracker.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/ref/cepix1234.WgetTracker.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/refint/cepix1234.WgetTracker.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/Debug/net8.0/refint/cepix1234.WgetTracker.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/cepix1234.WgetTracker.Core.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/cepix1234.WgetTracker.Core.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/cepix1234.WgetTracker.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/cepix1234.WgetTracker.Core.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/bin/Debug/net8.0/cepix1234.WgetTracker.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/bin/Debug/net8.0/cepix1234.WgetTracker.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/bin/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/bin/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/ref/cepix1234.WgetTracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/ref/cepix1234.WgetTracker.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/refint/cepix1234.WgetTracker.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/refint/cepix1234.WgetTracker.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/cepix1234.WgetTracker.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/cepix1234.WgetTracker.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/cepix1234.WgetTracker.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/cepix1234.WgetTracker.Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="355ce7e7-cd1e-40e5-9f5c-740f0103f173" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/cepix1234.WgetTracker.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/cepix1234.WgetTracker.App.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/FileCollectorServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/FileCollectorServiceTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Service/FileCollectorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Service/FileCollectorService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/cepix1234.WgetTracker.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/cepix1234.WgetTracker.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/cepix1234.WgetTracker.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/cepix1234.WgetTracker.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cepix1234.WgetTracker.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/cepix1234.WgetTracker.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publish.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/publish.ps1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +39,7 @@
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/Runtime/CompilerServices/TaskAwaiter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/Threading/Tasks/Future.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Console/src/System/Console.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/Collections/Generic/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/Microsoft.Extensions.Configuration.Json/src/JsonConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/Microsoft.Extensions.Hosting.Abstractions/src/BackgroundService.cs" root0="SKIP_HIGHLIGHTING" />
@@ -174,7 +130,8 @@
       <workItem from="1713724657698" duration="48000" />
       <workItem from="1713724742938" duration="5660000" />
       <workItem from="1714820484126" duration="4096000" />
-      <workItem from="1714934663902" duration="7884000" />
+      <workItem from="1714934663902" duration="8283000" />
+      <workItem from="1715019062079" duration="6009000" />
     </task>
     <task id="LOCAL-00001" summary="Add unit tests for collector service and wget output file reader.&#10;Added class for wget file, wget output file reader, and collector service to get all wget files.">
       <option name="closed" value="true" />
@@ -192,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714942718851</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Clean debug output">
+      <option name="closed" value="true" />
+      <created>1714942858991</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714942858991</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Clean project.">
+      <option name="closed" value="true" />
+      <created>1714943092326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714943092326</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +177,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add unit tests for collector service and wget output file reader.&#10;Added class for wget file, wget output file reader, and collector service to get all wget files." />
     <MESSAGE value="Added worker to get wget files every x seconds.&#10;Added tests for parsing wget files.&#10;Added wget output of file status." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added worker to get wget files every x seconds.&#10;Added tests for parsing wget files.&#10;Added wget output of file status." />
+    <MESSAGE value="Clean debug output" />
+    <MESSAGE value="Clean project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -221,6 +196,45 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/FileCollectorServiceTest.cs</url>
+          <line>33</line>
+          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core.test\FileCollectorServiceTest.cs" initialLine="33" containingFunctionPresentation="Method 'AllAppSettingsDirectoriesAndPatternsAreUsedToGetFiles'">
+            <startOffsets>
+              <option value="1411" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1436" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Service/FileCollectorService.cs</url>
+          <line>35</line>
+          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core\BackgroundServices\FileCollectorWorker\Service\FileCollectorService.cs" initialLine="35" containingFunctionPresentation="Method 'GetFiles'">
+            <startOffsets>
+              <option value="1374" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1412" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/FileCollectorServiceTest.cs</url>
+          <line>92</line>
+          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core.test\FileCollectorServiceTest.cs" initialLine="92" containingFunctionPresentation="Method 'DeletedFilesAreRemoved'">
+            <startOffsets>
+              <option value="5716" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5741" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
