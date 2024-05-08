@@ -7,19 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355ce7e7-cd1e-40e5-9f5c-740f0103f173" name="Changes" comment="Add arm64 build.">
-      <change afterPath="$PROJECT_DIR$/Release/LinuxArm/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Release/LinuxArm/cepix1234.WgetTracker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="355ce7e7-cd1e-40e5-9f5c-740f0103f173" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Release/Linux/cepix1234.WgetTracker" beforeDir="false" afterPath="$PROJECT_DIR$/Release/Linux/cepix1234.WgetTracker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Release/LinuxArm/cepix1234.WgetTracker" beforeDir="false" afterPath="$PROJECT_DIR$/Release/LinuxArm/cepix1234.WgetTracker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Release/Windows/cepix1234.WgetTracker.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Release/Windows/cepix1234.WgetTracker.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/cepix1234.WgetTracker.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/cepix1234.WgetTracker.App.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/FileCollectorServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/FileCollectorServiceTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Service/FileCollectorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Service/FileCollectorService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/cepix1234.WgetTracker.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/cepix1234.WgetTracker.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/cepix1234.WgetTracker.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/cepix1234.WgetTracker.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/Models/Application/AppSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/Models/Application/AppSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cepix1234.WgetTracker.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/cepix1234.WgetTracker.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/publish.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/publish.ps1" afterDir="false" />
     </list>
@@ -40,21 +34,28 @@
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/Microsoft.Extensions.Options/src/ConfigureNamedOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/Microsoft.Extensions.Options/src/OptionsFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/Activator.RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/Reflection/MethodBaseInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/Runtime/CompilerServices/TaskAwaiter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/Threading/CancellationToken.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/Threading/Tasks/Future.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Console/src/System/Console.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/Collections/Generic/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/Collections/Generic/List.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/2d7eea252964e69be94cb9c847b371b23e4dd470/src/libraries/System.Private.CoreLib/src/System/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/Microsoft.Extensions.Configuration.EnvironmentVariables/src/EnvironmentVariablesExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/Microsoft.Extensions.Configuration.Json/src/JsonConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/Microsoft.Extensions.Hosting.Abstractions/src/BackgroundService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/Microsoft.Extensions.Logging.Abstractions/src/LoggerT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/Microsoft.Extensions.Logging/src/LoggerFactory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/Microsoft.Extensions.Logging/src/LoggingServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/5535e31a712343a63f5d7d796cd874e563e5ac14/src/libraries/Microsoft.Extensions.Options.ConfigurationExtensions/src/NamedConfigureFromConfigurationOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9f4b1f5d664afdfc80e1508ab7ed099dff210fbd/src/coreclr/System.Private.CoreLib/src/System/Runtime/CompilerServices/RuntimeHelpers.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9f4b1f5d664afdfc80e1508ab7ed099dff210fbd/src/libraries/System.Linq/src/System/Linq/Where.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9f4b1f5d664afdfc80e1508ab7ed099dff210fbd/src/libraries/System.Private.CoreLib/src/System/ArgumentException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/bf5e279d9239bfef5bb1b8d6212f1b971c434606/src/libraries/Microsoft.Extensions.Configuration.Binder/src/ConfigurationBinder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/34e54cf52b4a4c2b82645ccc3a46837e5e000/57/9c681939/AbstractInvocation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2f9dfbcbeccd3824437c796568a45fe20d5487d99546ffbfd4f9846d3d98/CommandApp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/53bd8b3a84c2ebc5d5ab3bf8b8f5a2468f230f54ea0e671e5203151eabab71a/Configurator.cs" root0="SKIP_HIGHLIGHTING" />
@@ -95,7 +96,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.cepix1234.WgetTracker.App">
+  <component name="RunManager">
     <configuration name="cepix1234.WgetTracker.App" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -137,7 +138,10 @@
       <workItem from="1713724742938" duration="5660000" />
       <workItem from="1714820484126" duration="4096000" />
       <workItem from="1714934663902" duration="8283000" />
-      <workItem from="1715019062079" duration="6358000" />
+      <workItem from="1715019062079" duration="6565000" />
+      <workItem from="1715108443521" duration="4401000" />
+      <workItem from="1715171055755" duration="986000" />
+      <workItem from="1715191625630" duration="2973000" />
     </task>
     <task id="LOCAL-00001" summary="Add unit tests for collector service and wget output file reader.&#10;Added class for wget file, wget output file reader, and collector service to get all wget files.">
       <option name="closed" value="true" />
@@ -171,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714943092326</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add arm64 build.">
+      <option name="closed" value="true" />
+      <created>1715026653187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715026653187</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ide update">
+      <option name="closed" value="true" />
+      <created>1715026703423</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715026703423</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +206,8 @@
     <MESSAGE value="Clean debug output" />
     <MESSAGE value="Clean project." />
     <MESSAGE value="Add arm64 build." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add arm64 build." />
+    <MESSAGE value="ide update" />
+    <option name="LAST_COMMIT_MESSAGE" value="ide update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -242,6 +263,101 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Service/FileCollectorService.cs</url>
+          <line>43</line>
+          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core\BackgroundServices\FileCollectorWorker\Service\FileCollectorService.cs" initialLine="43" containingFunctionPresentation="Method 'GetFiles'">
+            <startOffsets>
+              <option value="1788" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1876" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Service/FileCollectorService.cs</url>
+          <line>21</line>
+          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core\BackgroundServices\FileCollectorWorker\Service\FileCollectorService.cs" initialLine="21" containingFunctionPresentation="Method 'GetFiles'">
+            <startOffsets>
+              <option value="829" />
+            </startOffsets>
+            <endOffsets>
+              <option value="877" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Service/FileCollectorService.cs</url>
+          <line>33</line>
+          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core\BackgroundServices\FileCollectorWorker\Service\FileCollectorService.cs" initialLine="33" containingFunctionPresentation="Method 'GetFiles'">
+            <startOffsets>
+              <option value="1312" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1351" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.App/Program.cs</url>
+          <line>17</line>
+          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.App\Program.cs" initialLine="17" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="680" />
+            </startOffsets>
+            <endOffsets>
+              <option value="793" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/Models/Application/AppSettings.cs</url>
+          <line>7</line>
+          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core\Models\Application\AppSettings.cs" initialLine="7" containingFunctionPresentation="Property 'FileCollectionTaskTimout'">
+            <startOffsets>
+              <option value="251" />
+              <option value="256" />
+            </startOffsets>
+            <endOffsets>
+              <option value="255" />
+              <option value="260" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/Models/Application/AppSettings.cs</url>
+          <line>11</line>
+          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core\Models\Application\AppSettings.cs" initialLine="11" containingFunctionPresentation="Property 'WgetOutputPattern'">
+            <startOffsets>
+              <option value="383" />
+              <option value="388" />
+            </startOffsets>
+            <endOffsets>
+              <option value="387" />
+              <option value="393" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/Models/Application/AppSettings.cs</url>
+          <line>15</line>
+          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core\Models\Application\AppSettings.cs" initialLine="15" containingFunctionPresentation="Constructor 'AppSettings'">
+            <startOffsets>
+              <option value="449" />
+            </startOffsets>
+            <endOffsets>
+              <option value="463" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

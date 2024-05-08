@@ -1,6 +1,7 @@
 dotnet publish .\app\cepix1234.WgetTracker.App -r linux-x64 -p:PublishSingleFile=true --self-contained true
 dotnet publish .\app\cepix1234.WgetTracker.App -r win-x64 -p:PublishSingleFile=true --self-contained true
 dotnet publish .\app\cepix1234.WgetTracker.App -r linux-arm64 -p:PublishSingleFile=true --self-contained true
+dotnet publish .\app\cepix1234.WgetTracker.App -r linux/amd64 -p:PublishSingleFile=true --self-contained true
 
 
 $ReleasePath = ".\Release"
