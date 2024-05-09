@@ -34,9 +34,9 @@ public class WgetOutputFileReader(IFileReader fileReader): IWgetOutputFileReader
         return savingToLineSplit[1].Trim().Trim((char)8217, (char)8216);
     }
 
-    public Boolean FileSaved(string FilePath)
+    public Boolean FileSaved(string filePath)
     {
-        string[] savedLines = fileReader.readFileFiles(FilePath).Skip(6).Where(line => line.Contains(" saved [")).ToArray();
+        string[] savedLines = fileReader.readFileFiles(filePath).Skip(6).Where(line => line.Contains(" saved [")).ToArray();
         return savedLines.Length > 0;
     }
 }

@@ -29,7 +29,7 @@ public interface IWgetOutputFileReader
     /// <summary>
     /// Is file saved/finished downloading.
     /// </summary>
-    /// <param name="FilePath">Path to wget output file.</param>
+    /// <param name="filePath">Path to wget output file.</param>
     /// <returns>Is file saved.</returns>
-    Boolean FileSaved(string FilePath);
+    Boolean FileSaved(string filePath);
 }
