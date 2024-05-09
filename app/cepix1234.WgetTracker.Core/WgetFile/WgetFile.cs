@@ -8,7 +8,7 @@ public class WgetFile : IWgetFile
 {
     private readonly IWgetOutputFileReader _wgetOutputFileReader;
     private int _lastLineReadStatus;
-    private String _fileName;
+    private readonly String _fileName;
 
     public string Direcory { get; }
     public string FilePath { get; }
@@ -22,7 +22,7 @@ public class WgetFile : IWgetFile
         Direcory = directory;
     }
     
-    public Int64 Size()
+    public Int64? Size()
     {
         return _wgetOutputFileReader.FileSize(FilePath);
     }
@@ -41,7 +41,13 @@ public class WgetFile : IWgetFile
 
     public override String ToString()
     {
-        var percentage = ((float)this.Status() / (float)this.Size()) * 100;
+        var size = this.Size();
+        var percentage = (float)0;
+        if (size != null)
+        {
+            percentage = ((float)this.Status() / (float)size) * 100;
+        }
+        
         if (downloadFinished())
         {
             percentage = 100;
@@ -60,7 +66,7 @@ public class WgetFile : IWgetFile
         }
         
         return String.Format("{0,20} : |{1,55}| {2,4}%, {3}B -> {4}B", this._fileName,
-            percentageDisplay, (int)percentage, this.Status(), this.Size() );
+            percentageDisplay, (int)percentage, this.Status(), size == null? "?": size );
     }
 
     private Boolean downloadFinished()

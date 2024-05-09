@@ -8,14 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355ce7e7-cd1e-40e5-9f5c-740f0103f173" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/WgetExample2.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Release/Linux/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Release/Linux/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Release/Linux/cepix1234.WgetTracker" beforeDir="false" afterPath="$PROJECT_DIR$/Release/Linux/cepix1234.WgetTracker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Release/LinuxArm/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Release/LinuxArm/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Release/LinuxArm/cepix1234.WgetTracker" beforeDir="false" afterPath="$PROJECT_DIR$/Release/LinuxArm/cepix1234.WgetTracker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Release/Windows/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Release/Windows/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Release/Windows/cepix1234.WgetTracker.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Release/Windows/cepix1234.WgetTracker.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/cepix1234.WgetTracker.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/cepix1234.WgetTracker.App.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/WgetOutputFileReaderTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/WgetOutputFileReaderTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetFile/Models/IWgetFile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetFile/Models/IWgetFile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetFile/WgetFile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetFile/WgetFile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/Models/IWgetOutputFileReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/Models/IWgetOutputFileReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/WgetOutputFileReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/WgetOutputFileReader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +36,10 @@
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/coreclr/System.Private.CoreLib/src/System/Reflection/RuntimePropertyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/coreclr/System.Private.CoreLib/src/System/Reflection/RuntimePropertyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/Microsoft.Extensions.Options/src/ConfigureNamedOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/Microsoft.Extensions.Options/src/OptionsFactory.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/Activator.RuntimeType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/Activator.RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/IO/Directory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/Reflection/MethodBaseInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/1381d5ebd2ab1f292848d5b19b80cf71ac332508/src/libraries/System.Private.CoreLib/src/System/Runtime/CompilerServices/TaskAwaiter.cs" root0="SKIP_HIGHLIGHTING" />
@@ -75,30 +77,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.cepix1234.WgetTracker.App.executor&quot;: &quot;Debug&quot;,
-    &quot;5c40d259-aa4a-4c5c-a7ed-66457e9d2bfd.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.cepix1234.WgetTracker.App.executor": "Debug",
+    "5c40d259-aa4a-4c5c-a7ed-66457e9d2bfd.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
+    "ignore_missing_gitignore": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\blazo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\blazo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\blazo\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\blazo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\blazo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\blazo\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="cepix1234.WgetTracker.App" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -146,6 +148,8 @@
       <workItem from="1715171055755" duration="986000" />
       <workItem from="1715191625630" duration="4192000" />
       <workItem from="1715230875474" duration="21000" />
+      <workItem from="1715231169162" duration="764000" />
+      <workItem from="1715243803967" duration="2365000" />
     </task>
     <task id="LOCAL-00001" summary="Add unit tests for collector service and wget output file reader.&#10;Added class for wget file, wget output file reader, and collector service to get all wget files.">
       <option name="closed" value="true" />
@@ -203,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715196634889</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Revert app settings to default values.">
+      <option name="closed" value="true" />
+      <created>1715231664411</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715231664411</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +232,8 @@
     <MESSAGE value="Add arm64 build." />
     <MESSAGE value="ide update" />
     <MESSAGE value="Added more docs to app settins." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more docs to app settins." />
+    <MESSAGE value="Revert app settings to default values." />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert app settings to default values." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -252,19 +265,6 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Service/FileCollectorService.cs</url>
-          <line>35</line>
-          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core\BackgroundServices\FileCollectorWorker\Service\FileCollectorService.cs" initialLine="35" containingFunctionPresentation="Method 'GetFiles'">
-            <startOffsets>
-              <option value="1374" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1412" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/FileCollectorServiceTest.cs</url>
           <line>92</line>
           <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core.test\FileCollectorServiceTest.cs" initialLine="92" containingFunctionPresentation="Method 'DeletedFilesAreRemoved'">
@@ -278,56 +278,17 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Service/FileCollectorService.cs</url>
-          <line>43</line>
-          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core\BackgroundServices\FileCollectorWorker\Service\FileCollectorService.cs" initialLine="43" containingFunctionPresentation="Method 'GetFiles'">
+          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/Commands/WgetStatusCommand/WgetStatusCommand.cs</url>
+          <line>31</line>
+          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Infrastructure\Commands\WgetStatusCommand\WgetStatusCommand.cs" initialLine="31" containingFunctionPresentation="Method 'ExecuteAsync'">
             <startOffsets>
-              <option value="1788" />
+              <option value="1431" />
             </startOffsets>
             <endOffsets>
-              <option value="1876" />
+              <option value="1489" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Service/FileCollectorService.cs</url>
-          <line>21</line>
-          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core\BackgroundServices\FileCollectorWorker\Service\FileCollectorService.cs" initialLine="21" containingFunctionPresentation="Method 'GetFiles'">
-            <startOffsets>
-              <option value="829" />
-            </startOffsets>
-            <endOffsets>
-              <option value="877" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/BackgroundServices/FileCollectorWorker/Service/FileCollectorService.cs</url>
-          <line>33</line>
-          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.Core\BackgroundServices\FileCollectorWorker\Service\FileCollectorService.cs" initialLine="33" containingFunctionPresentation="Method 'GetFiles'">
-            <startOffsets>
-              <option value="1312" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1351" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/app/cepix1234.WgetTracker.App/Program.cs</url>
-          <line>17</line>
-          <properties documentPath="E:\Git\wgetTracker\app\cepix1234.WgetTracker.App\Program.cs" initialLine="17" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="680" />
-            </startOffsets>
-            <endOffsets>
-              <option value="793" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

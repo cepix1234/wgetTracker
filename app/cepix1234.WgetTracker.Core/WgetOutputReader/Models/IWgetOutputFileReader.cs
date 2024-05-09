@@ -9,7 +9,7 @@ public interface IWgetOutputFileReader
     /// </summary>
     /// <param name="filePath">Path to file to read</param>
     /// <returns>Length of file being downloaded in Bytes</returns>
-    Int64 FileSize(string filePath);
+    Int64? FileSize(string filePath);
     
     /// <summary>
     /// Get current file downloaded size from wget output.

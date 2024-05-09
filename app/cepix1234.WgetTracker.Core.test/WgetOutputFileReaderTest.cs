@@ -39,7 +39,7 @@ public class WgetOutputFileReaderTest
     [Test]
     public void WgetOutputFileReaderGetsFileSize()
     {
-        Int64 size = wgetReader.FileSize("WgetExample.out");
+        var size = wgetReader.FileSize("WgetExample.out");
         Assert.That(size, Is.EqualTo(111111111111));
     }
 

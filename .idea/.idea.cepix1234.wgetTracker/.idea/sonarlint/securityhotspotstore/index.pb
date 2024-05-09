@@ -75,3 +75,5 @@ tapp/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.Gene
 ˆapp/cepix1234.WgetTracker.Infrastructure/obj/Debug/net8.0/cepix1234.WgetTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig,7\3\7358466946dbcefe23e06c03bb3a3d4e41340d9f
 „
 Tapp/cepix1234.WgetTracker.Infrastructure/cepix1234.WgetTracker.Infrastructure.csproj,e\6\e695472eb347e011a5f22de9e8e9d5b148ba5ff8
+^
+.app/cepix1234.WgetTracker.App/WgetExample2.out,5\e\5e092c245db6efc69309788cbac0480b327b5747
