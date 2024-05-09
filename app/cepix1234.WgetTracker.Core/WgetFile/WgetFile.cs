@@ -50,7 +50,8 @@ public class WgetFile : IWgetFile
         
         if (downloadFinished())
         {
-            percentage = 100;
+            return String.Format("{0,20} : |DONE| {1,4}%, {2}B -> {3}B", this._fileName
+                , (int)percentage, this.Status(), size == null? "?": size );
         }
         var percentageDone = (int)percentage / 2;
         var percentageTodo = 50 - percentageDone;
