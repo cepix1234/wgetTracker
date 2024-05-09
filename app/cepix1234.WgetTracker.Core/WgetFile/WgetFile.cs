@@ -70,6 +70,11 @@ public class WgetFile : IWgetFile
             percentageDisplay, (int)percentage, this.Status(), size == null? "?": size );
     }
 
+    public Boolean Exists()
+    {
+        return File.Exists(this.FilePath);
+    }
+
     private Boolean downloadFinished()
     {
         return _wgetOutputFileReader.FileSaved(FilePath);

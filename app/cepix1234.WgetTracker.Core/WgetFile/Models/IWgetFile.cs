@@ -35,4 +35,10 @@ public interface IWgetFile
     /// </summary>
     /// <returns>Status of wget file.</returns>
     String ToString();
+
+    /// <summary>
+    /// File exists.
+    /// </summary>
+    /// <returns>True if file exists</returns>
+    Boolean Exists();
 }

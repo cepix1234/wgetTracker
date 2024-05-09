@@ -32,7 +32,7 @@ public class WgetStatusCommand: AsyncCommand<WgetStatusCommandSettings>
             foreach (string directory in _appSettings.WgetDirectories)
             {
                 _consoleLogger.Log(string.Format("{0}{1}:", directory, Path.DirectorySeparatorChar));
-                foreach (IWgetFile wgetFile in wgetFiles.Where(wgetFile => wgetFile.Direcory == directory))
+                foreach (IWgetFile wgetFile in wgetFiles.Where(wgetFile => wgetFile.Direcory == directory && wgetFile.Exists()))
                 {
                     _consoleLogger.Log(wgetFile.ToString());
                 }
