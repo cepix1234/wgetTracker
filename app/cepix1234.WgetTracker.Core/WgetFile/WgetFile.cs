@@ -50,7 +50,7 @@ public class WgetFile : IWgetFile
         
         if (downloadFinished())
         {
-            return String.Format("{0,20} : |DONE| {1,4}%, {2}B -> {3}B", this._fileName
+            return String.Format("{0} : |DONE| {1}%, {2}B -> {3}B", this._fileName
                 , (int)percentage, this.Status(), size == null? "?": size );
         }
         var percentageDone = (int)percentage / 2;
@@ -66,7 +66,7 @@ public class WgetFile : IWgetFile
             percentageDisplay = String.Format("{0}{1}", percentageDisplay," ");
         }
         
-        return String.Format("{0,20} : |{1,55}| {2,4}%, {3}B -> {4}B", this._fileName,
+        return String.Format("{0} : |{1}| {2}%, {3}B -> {4}B", this._fileName,
             percentageDisplay, (int)percentage, this.Status(), size == null? "?": size );
     }
 
