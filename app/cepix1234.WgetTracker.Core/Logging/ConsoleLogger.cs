@@ -11,6 +11,6 @@ public class ConsoleLogger: IConsoleLogger
 
     public void ClearConsole()
     {
-        Console.Clear();
+        Console.SetCursorPosition(0,0);
     }
 }
