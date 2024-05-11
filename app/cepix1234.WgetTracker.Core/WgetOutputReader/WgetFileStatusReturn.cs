@@ -6,9 +6,9 @@ public class WgetFileStatusReturn: IWgetFileStatusReturn
 {
     public int LineRead { get; }
     
-    public Int64 FileStatus { get; }
+    public string FileStatus { get; }
 
-    public WgetFileStatusReturn(int lineRead, Int64 status)
+    public WgetFileStatusReturn(int lineRead, string status)
     {
         LineRead = lineRead;
         FileStatus = status;

@@ -40,14 +40,14 @@ public class WgetOutputFileReaderTest
     public void WgetOutputFileReaderGetsFileSize()
     {
         var size = wgetReader.FileSize("WgetExample.out");
-        Assert.That(size, Is.EqualTo(111111111111));
+        Assert.That(size, Is.EqualTo("111111111111"));
     }
 
     [Test]
     public void WgetOutputFileReaderGetsCurrentDownload()
     {
         IWgetFileStatusReturn size = wgetReader.FileStatus("WgetExample.out");
-        Assert.That(size.FileStatus, Is.EqualTo(153600));
+        Assert.That(size.FileStatus, Is.EqualTo("153600"));
         Assert.That(size.LineRead, Is.EqualTo(8));
     }
     
@@ -69,7 +69,7 @@ public class WgetOutputFileReaderTest
         });
         wgetReader = new WgetOutputFileReader(fileReaderStub.Object);
         IWgetFileStatusReturn size = wgetReader.FileStatus("WgetExample.out", 7);
-        Assert.That(size.FileStatus, Is.EqualTo(122880));
+        Assert.That(size.FileStatus, Is.EqualTo("122880"));
         Assert.That(size.LineRead, Is.EqualTo(8));
     }
 }

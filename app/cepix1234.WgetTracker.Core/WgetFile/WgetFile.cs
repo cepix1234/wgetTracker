@@ -1,6 +1,5 @@
 ﻿using cepix1234.WgetTracker.Core.WgetFile.Models;
 using cepix1234.WgetTracker.Core.WgetOutputReader.Models;
-using Microsoft.VisualBasic;
 
 namespace cepix1234.WgetTracker.Core.WgetFile;
 
@@ -22,12 +21,12 @@ public class WgetFile : IWgetFile
         Direcory = directory;
     }
     
-    public Int64? Size()
+    public string Size()
     {
         return _wgetOutputFileReader.FileSize(FilePath);
     }
 
-    public Int64 Status()
+    public string Status()
     {
         IWgetFileStatusReturn result = _wgetOutputFileReader.FileStatus(FilePath, _lastLineReadStatus);
         _lastLineReadStatus = result.LineRead;
@@ -41,17 +40,17 @@ public class WgetFile : IWgetFile
 
     public override String ToString()
     {
-        var size = this.Size();
-        var percentage = (float)0;
-        if (size != null)
+        string size = this.Size();
+        float percentage = 0;
+        if (UInt128.TryParse(size, out UInt128 intSize))
         {
-            percentage = ((float)this.Status() / (float)size) * 100;
+            percentage = (float)(UInt128.Parse(this.Status()) / intSize) * 100;
         }
         
-        if (downloadFinished())
+        if (DownloadFinished())
         {
             return String.Format("{0} : |DONE| {1}%, {2}B -> {3}B", this._fileName
-                , (int)percentage, this.Status(), size == null? "?": size );
+                , 100, this.Status(), size );
         }
         var percentageDone = (int)percentage / 2;
         var percentageTodo = 50 - percentageDone;
@@ -67,7 +66,7 @@ public class WgetFile : IWgetFile
         }
         
         return String.Format("{0} : |{1}| {2}%, {3}B -> {4}B", this._fileName,
-            percentageDisplay, (int)percentage, this.Status(), size == null? "?": size );
+            percentageDisplay, (int)percentage, this.Status(), size );
     }
 
     public Boolean Exists()
@@ -75,7 +74,7 @@ public class WgetFile : IWgetFile
         return File.Exists(this.FilePath);
     }
 
-    private Boolean downloadFinished()
+    private Boolean DownloadFinished()
     {
         return _wgetOutputFileReader.FileSaved(FilePath);
     }

@@ -2,7 +2,7 @@
 
 public static class SizeConverter
 {
-    public static Int64 CovertToB(int kibibyte)
+    public static UInt128 CovertToB(UInt128 kibibyte)
     {
         return kibibyte * 1024;
     }

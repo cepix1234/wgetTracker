@@ -9,7 +9,14 @@
   <component name="ChangeListManager">
     <list default="true" id="355ce7e7-cd1e-40e5-9f5c-740f0103f173" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/WgetOutputFileReaderTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core.test/WgetOutputFileReaderTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/Utils/SizeConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/Utils/SizeConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetFile/Models/IWgetFile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetFile/Models/IWgetFile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetFile/WgetFile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetFile/WgetFile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/Models/IWgetFileStatusReturn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/Models/IWgetFileStatusReturn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/Models/IWgetOutputFileReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/Models/IWgetOutputFileReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/WgetFileStatusReturn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/WgetFileStatusReturn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/WgetOutputFileReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/WgetOutputFileReader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +100,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.cepix1234.WgetTracker.App">
     <configuration name="cepix1234.WgetTracker.App" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -145,7 +152,9 @@
       <workItem from="1715250127495" duration="1681000" />
       <workItem from="1715256786385" duration="791000" />
       <workItem from="1715279459950" duration="2284000" />
-      <workItem from="1715374832489" duration="386000" />
+      <workItem from="1715374832489" duration="732000" />
+      <workItem from="1715407112627" duration="50000" />
+      <workItem from="1715424014509" duration="1341000" />
     </task>
     <task id="LOCAL-00001" summary="Add unit tests for collector service and wget output file reader.&#10;Added class for wget file, wget output file reader, and collector service to get all wget files.">
       <option name="closed" value="true" />
@@ -243,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715282068711</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fix console log.">
+      <option name="closed" value="true" />
+      <created>1715375260274</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715375260274</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +282,8 @@
     <MESSAGE value="Fix parameter name." />
     <MESSAGE value="Fix output when download finished." />
     <MESSAGE value="Add file exists check." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add file exists check." />
+    <MESSAGE value="Fix console log." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix console log." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

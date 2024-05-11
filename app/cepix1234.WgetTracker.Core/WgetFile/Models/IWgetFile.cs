@@ -16,13 +16,13 @@ public interface IWgetFile
     /// Get size of the file being downloaded.
     /// </summary>
     /// <returns>Size in Bytes</returns>
-    Int64? Size();
+    string Size();
 
     /// <summary>
     /// Get current file download status.
     /// </summary>
     /// <returns>Return download status in Bytes</returns>
-    Int64 Status();
+    string Status();
 
     /// <summary>
     /// Name of file being download.

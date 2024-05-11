@@ -6,16 +6,12 @@ namespace cepix1234.WgetTracker.Core.WgetOutputReader;
 
 public class WgetOutputFileReader(IFileReader fileReader): IWgetOutputFileReader
 {
-    public Int64? FileSize(string filePath)
+    public string FileSize(string filePath)
     {
         string lengthLine = fileReader.readFileFiles(filePath).Skip(4).Take(1).First();
         string[] lengthLinesSplit = lengthLine.Split(" ");
         string sizeInString = lengthLinesSplit[1].Trim();
-        if (Int64.TryParse(sizeInString, out Int64 size))
-        {
-            return size;
-        }
-        return null;
+        return sizeInString;
     }
 
     public IWgetFileStatusReturn FileStatus(string filePath, int skipLines = 6)
@@ -23,8 +19,8 @@ public class WgetOutputFileReader(IFileReader fileReader): IWgetOutputFileReader
         string[] lengthLine = fileReader.readFileFiles(filePath).Skip(skipLines).Where((line)=> line.Contains("0K")).ToArray();
         string lastStatusLine = lengthLine[lengthLine.Length - 1];
         int dotCount = lastStatusLine.Count(f => f == '.');
-        int kibibyteBase = int.Parse(lastStatusLine.Split("K")[0].Trim());
-        return new WgetFileStatusReturn(skipLines + lengthLine.Length - 1, SizeConverter.CovertToB(kibibyteBase + dotCount));
+        Int64 kibibyteBase = Int64.Parse(lastStatusLine.Split("K")[0].Trim());
+        return new WgetFileStatusReturn(skipLines + lengthLine.Length - 1, SizeConverter.CovertToB((UInt128)(kibibyteBase + dotCount)).ToString());
     }
 
     public String FileName(string filePath)

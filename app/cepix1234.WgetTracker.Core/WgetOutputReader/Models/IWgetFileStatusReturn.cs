@@ -10,5 +10,5 @@ public interface IWgetFileStatusReturn
     /// <summary>
     /// Current file size status of file in Bytes.
     /// </summary>
-    Int64 FileStatus { get; }
+    string FileStatus { get; }
 }
