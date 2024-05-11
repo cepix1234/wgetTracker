@@ -1,10 +1,13 @@
-﻿using cepix1234.WgetTracker.Core.Utils;
+﻿using cepix1234.WgetTracker.Core.Logging.Models;
+using cepix1234.WgetTracker.Core.Utils;
 using cepix1234.WgetTracker.Core.WgetOutputReader.Models;
 using cepix1234.WgetTracker.Core.Wrappers.Models;
 
 namespace cepix1234.WgetTracker.Core.WgetOutputReader;
 
-public class WgetOutputFileReader(IFileReader fileReader): IWgetOutputFileReader
+public class WgetOutputFileReader(
+    IFileReader fileReader,
+    IConsoleLogger _consoleLogger) : IWgetOutputFileReader
 {
     public string FileSize(string filePath)
     {
@@ -14,13 +17,29 @@ public class WgetOutputFileReader(IFileReader fileReader): IWgetOutputFileReader
         return sizeInString;
     }
 
-    public IWgetFileStatusReturn FileStatus(string filePath, int skipLines = 6)
+    public IWgetFileStatusReturn? FileStatus(string filePath, int skipLines = 6)
     {
-        string[] lengthLine = fileReader.readFileFiles(filePath).Skip(skipLines).Where((line)=> line.Contains("0K")).ToArray();
-        string lastStatusLine = lengthLine[lengthLine.Length - 1];
-        int dotCount = lastStatusLine.Count(f => f == '.');
-        Int64 kibibyteBase = Int64.Parse(lastStatusLine.Split("K")[0].Trim());
-        return new WgetFileStatusReturn(skipLines + lengthLine.Length - 1, SizeConverter.CovertToB((UInt128)(kibibyteBase + dotCount)).ToString());
+        if (!FileExists(filePath))
+        {
+            return null;
+        }
+
+        try
+        {
+            string[] lengthLine = fileReader.readFileFiles(filePath).Skip(skipLines)
+                .Where((line) => line.Contains("0K")).ToArray();
+            string lastStatusLine = lengthLine[lengthLine.Length - 1];
+            int dotCount = lastStatusLine.Count(f => f == '.');
+            UInt128 kibibyteBase = UInt128.Parse(lastStatusLine.Split("K")[0].Trim());
+            return new WgetFileStatusReturn(skipLines + lengthLine.Length - 1,
+                SizeConverter.CovertToB((kibibyteBase + (UInt128)dotCount)).ToString());
+        }
+        catch (FileNotFoundException ex)
+        {
+            _consoleLogger.Log(ex.ToString());
+        }
+
+        return null;
     }
 
     public String FileName(string filePath)
@@ -32,7 +51,27 @@ public class WgetOutputFileReader(IFileReader fileReader): IWgetOutputFileReader
 
     public Boolean FileSaved(string filePath)
     {
-        string[] savedLines = fileReader.readFileFiles(filePath).Skip(6).Where(line => line.Contains(" saved [")).ToArray();
-        return savedLines.Length > 0;
+        if (FileExists(filePath))
+        {
+            return false;
+        }
+
+        try
+        {
+            string[] savedLines = fileReader.readFileFiles(filePath).Skip(6).Where(line => line.Contains(" saved ["))
+                .ToArray();
+            return savedLines.Length > 0;
+        }
+        catch (FileNotFoundException ex)
+        {
+            _consoleLogger.Log(ex.ToString());
+        }
+
+        return false;
+    }
+
+    public Boolean FileExists(string filePath)
+    {
+        return File.Exists(filePath);
     }
 }

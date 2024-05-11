@@ -7,7 +7,7 @@ public interface IFileProvider
     /// </summary>
     /// <returns></returns>
     string GetCurrentDirectory();
-    
+
     /// <summary>
     /// Get files within path directory, filter them by string pattern.
     /// </summary>

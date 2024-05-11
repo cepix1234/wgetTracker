@@ -2,7 +2,7 @@
 
 namespace cepix1234.WgetTracker.Core.Logging;
 
-public class ConsoleLogger: IConsoleLogger
+public class ConsoleLogger : IConsoleLogger
 {
     public void Log(String str)
     {
@@ -13,9 +13,9 @@ public class ConsoleLogger: IConsoleLogger
     {
         Console.Clear();
     }
-    
+
     public void ResetCursor()
     {
-        Console.SetCursorPosition(0,0);
+        Console.SetCursorPosition(0, 0);
     }
 }

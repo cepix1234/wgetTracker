@@ -9,6 +9,8 @@ public class WgetFile : IWgetFile
     private int _lastLineReadStatus;
     private readonly String _fileName;
 
+    private readonly string _wgetFileSize;
+
     public string Direcory { get; }
     public string FilePath { get; }
 
@@ -19,14 +21,11 @@ public class WgetFile : IWgetFile
         _lastLineReadStatus = 6;
         _fileName = _wgetOutputFileReader.FileName(FilePath);
         Direcory = directory;
-    }
-    
-    public string Size()
-    {
-        return _wgetOutputFileReader.FileSize(FilePath);
+        _wgetFileSize = _wgetOutputFileReader.FileSize(FilePath);
     }
 
-    public string Status()
+
+    public string? Status()
     {
         IWgetFileStatusReturn result = _wgetOutputFileReader.FileStatus(FilePath, _lastLineReadStatus);
         _lastLineReadStatus = result.LineRead;
@@ -44,40 +43,40 @@ public class WgetFile : IWgetFile
         {
             return "";
         }
-        string wgetSize = Size();
-        string wgetStatus = Status();
+        string? wgetStatus = Status();
         bool wgetFinished = DownloadFinished();
         float percentage = 0;
-        if (UInt128.TryParse(wgetSize, out UInt128 intSize))
+        if (UInt128.TryParse(_wgetFileSize, out UInt128 intSize))
         {
             percentage = (float)(UInt128.Parse(wgetStatus) / intSize) * 100;
         }
-        
+
         if (wgetFinished)
         {
             return String.Format("{0} : |DONE| {1}%, {2}B -> {3}B", _fileName
-                , 100, wgetStatus, wgetSize );
+                , 100, wgetStatus, _wgetFileSize);
         }
+
         var percentageDone = (int)percentage / 2;
         var percentageTodo = 50 - percentageDone;
         var percentageDisplay = "";
         for (int i = 0; i < percentageDone; i++)
         {
-            percentageDisplay = String.Format("{0}{1}", percentageDisplay,":");
+            percentageDisplay = String.Format("{0}{1}", percentageDisplay, ":");
         }
-        
+
         for (int i = 0; i < percentageTodo; i++)
         {
-            percentageDisplay = String.Format("{0}{1}", percentageDisplay," ");
+            percentageDisplay = String.Format("{0}{1}", percentageDisplay, " ");
         }
-        
+
         return String.Format("{0} : |{1}| {2}%, {3}B -> {4}B", _fileName,
-            percentageDisplay, (int)percentage, wgetStatus, wgetSize );
+            percentageDisplay, (int)percentage, wgetStatus, _wgetFileSize);
     }
 
     public Boolean Exists()
     {
-        return File.Exists(FilePath);
+        return _wgetOutputFileReader.FileExists(FilePath);
     }
 
     private Boolean DownloadFinished()

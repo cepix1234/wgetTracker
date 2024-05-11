@@ -1,4 +1,5 @@
-﻿using cepix1234.WgetTracker.Core.WgetOutputReader;
+﻿using cepix1234.WgetTracker.Core.Logging.Models;
+using cepix1234.WgetTracker.Core.WgetOutputReader;
 using cepix1234.WgetTracker.Core.WgetOutputReader.Models;
 using cepix1234.WgetTracker.Core.Wrappers.Models;
 using Moq;
@@ -8,11 +9,10 @@ namespace cepix1234.WgetTracker.Core.test;
 public class WgetOutputFileReaderTest
 {
     private WgetOutputFileReader wgetReader;
-    
+
     [SetUp]
     public void Setup()
     {
-        
         var fileReaderStub = new Mock<IFileReader>();
         fileReaderStub.Setup(fps => fps.readFileFiles(It.IsAny<string>())).Returns(new[]
         {
@@ -26,7 +26,11 @@ public class WgetOutputFileReaderTest
             "    50K .......... .......... .......... .......... ..........  5%  319K 5s",
             "   100K .......... .......... .......... .......... ..........  8%  553K 4s"
         });
-        wgetReader = new WgetOutputFileReader(fileReaderStub.Object);
+        var consoleLoggerStub = new Mock<IConsoleLogger>();
+        consoleLoggerStub.Setup(cls => cls.ClearConsole()).Callback(() => {});
+        consoleLoggerStub.Setup(cls => cls.ResetCursor()).Callback(() => {});
+        consoleLoggerStub.Setup(cls => cls.Log(It.IsAny<string>())).Callback(() => {});
+        wgetReader = new WgetOutputFileReader(fileReaderStub.Object, consoleLoggerStub.Object);
     }
 
     [Test]
@@ -35,7 +39,7 @@ public class WgetOutputFileReaderTest
         String fileName = wgetReader.FileName("WgetExample.out");
         Assert.That(fileName, Is.EqualTo("P1010002.JPG"));
     }
-    
+
     [Test]
     public void WgetOutputFileReaderGetsFileSize()
     {
@@ -50,7 +54,7 @@ public class WgetOutputFileReaderTest
         Assert.That(size.FileStatus, Is.EqualTo("153600"));
         Assert.That(size.LineRead, Is.EqualTo(8));
     }
-    
+
     [Test]
     public void WgetOutputFileReaderGetsCurrentDownloadNotAllDots()
     {
@@ -66,8 +70,11 @@ public class WgetOutputFileReaderTest
             "     0K .......... .......... .......... .......... ..........  2%  345K 5s",
             "    50K .......... .......... .......... .......... ..........  5%  319K 5s",
             "   100K .......... ..........                                   8%  553K 4s"
-        });
-        wgetReader = new WgetOutputFileReader(fileReaderStub.Object);
+        });var consoleLoggerStub = new Mock<IConsoleLogger>();
+        consoleLoggerStub.Setup(cls => cls.ClearConsole()).Callback(() => {});
+        consoleLoggerStub.Setup(cls => cls.ResetCursor()).Callback(() => {});
+        consoleLoggerStub.Setup(cls => cls.Log(It.IsAny<string>())).Callback(() => {});
+        wgetReader = new WgetOutputFileReader(fileReaderStub.Object, consoleLoggerStub.Object);
         IWgetFileStatusReturn size = wgetReader.FileStatus("WgetExample.out", 7);
         Assert.That(size.FileStatus, Is.EqualTo("122880"));
         Assert.That(size.LineRead, Is.EqualTo(8));

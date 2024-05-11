@@ -2,7 +2,7 @@
 
 namespace cepix1234.WgetTracker.Core.Wrappers;
 
-public class FileReader: IFileReader
+public class FileReader : IFileReader
 {
     public IEnumerable<string> readFileFiles(string filePath)
     {

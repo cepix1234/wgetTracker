@@ -10,21 +10,22 @@ using Spectre.Console.Cli;
 
 namespace cepix1234.WgetTracker.Infrastructure.Commands.HelloWorldCommand;
 
-public class WgetStatusCommand: AsyncCommand<WgetStatusCommandSettings>
+public class WgetStatusCommand : AsyncCommand<WgetStatusCommandSettings>
 {
     private readonly IConsoleLogger _consoleLogger;
     private readonly IFileCollectorService _fileCollectorService;
     private readonly AppSettings _appSettings;
     private int _previousNumberOfFiles;
-    
-    public WgetStatusCommand( IConsoleLogger consoleLogger, IFileCollectorService fileCollectorService, FileCollectorWorker filecollectorWorker, IOptions<AppSettings> appSettings)
+
+    public WgetStatusCommand(IConsoleLogger consoleLogger, IFileCollectorService fileCollectorService,
+        FileCollectorWorker filecollectorWorker, IOptions<AppSettings> appSettings)
     {
         _consoleLogger = consoleLogger;
         _fileCollectorService = fileCollectorService;
         filecollectorWorker.ExecuteAsync(new CancellationToken());
         _appSettings = appSettings.Value;
     }
-    
+
     public override async Task<int> ExecuteAsync(CommandContext context, WgetStatusCommandSettings settings)
     {
         try
@@ -43,7 +44,7 @@ public class WgetStatusCommand: AsyncCommand<WgetStatusCommandSettings>
                 {
                     _consoleLogger.Log(string.Format("{0}{1}:", directory, Path.DirectorySeparatorChar));
                     foreach (IWgetFile wgetFile in wgetFiles.Where(wgetFile =>
-                                 wgetFile.Direcory == directory))
+                                 wgetFile.Direcory == directory && wgetFile.Exists()))
                     {
                         _consoleLogger.Log(wgetFile.ToString());
                     }

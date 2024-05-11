@@ -9,7 +9,7 @@ public interface IFileCollectorService
     /// </summary>
     /// <returns>List of gotten wget files</returns>
     public List<IWgetFile> Files();
-    
+
     /// <summary>
     /// Get all wget output files.
     /// </summary>

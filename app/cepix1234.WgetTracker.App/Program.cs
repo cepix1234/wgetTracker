@@ -27,7 +27,7 @@ app.Configure(
     config =>
     {
         config.ValidateExamples();
-        
+
         config.AddCommand<WgetStatusCommand>("wgetStatus")
             .WithAlias("ws")
             .WithDescription("Get Status of all wget output files.")

@@ -7,8 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355ce7e7-cd1e-40e5-9f5c-740f0103f173" name="Changes" comment="Fix error to console.">
+    <list default="true" id="355ce7e7-cd1e-40e5-9f5c-740f0103f173" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/sonarlint/issuestore/d/6/d60ac3e7845f130344ac233ec7ae293f0c2cec9b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/sonarlint/issuestore/d/6/d60ac3e7845f130344ac233ec7ae293f0c2cec9b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetFile/Models/IWgetFile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetFile/Models/IWgetFile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetFile/WgetFile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetFile/WgetFile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/Models/IWgetOutputFileReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/Models/IWgetOutputFileReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/WgetOutputFileReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Core/WgetOutputReader/WgetOutputFileReader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/Commands/WgetStatusCommand/WgetStatusCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.Infrastructure/Commands/WgetStatusCommand/WgetStatusCommand.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +154,8 @@
       <workItem from="1715374832489" duration="732000" />
       <workItem from="1715407112627" duration="50000" />
       <workItem from="1715424014509" duration="3967000" />
-      <workItem from="1715430355182" duration="645000" />
+      <workItem from="1715430355182" duration="1006000" />
+      <workItem from="1715455935241" duration="1420000" />
     </task>
     <task id="LOCAL-00001" summary="Add unit tests for collector service and wget output file reader.&#10;Added class for wget file, wget output file reader, and collector service to get all wget files.">
       <option name="closed" value="true" />
@@ -287,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715430552780</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fix problem when file is delete but we still read from it.">
+      <option name="closed" value="true" />
+      <created>1715431047625</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715431047625</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +328,8 @@
     <MESSAGE value="Fix console clear." />
     <MESSAGE value="Add initial clear. Add error logging and smart console clear." />
     <MESSAGE value="Fix error to console." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix error to console." />
+    <MESSAGE value="Fix problem when file is delete but we still read from it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix problem when file is delete but we still read from it." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

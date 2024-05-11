@@ -2,7 +2,7 @@
 
 namespace cepix1234.WgetTracker.Core.Wrappers;
 
-public class FileProvider: IFileProvider
+public class FileProvider : IFileProvider
 {
     public string GetCurrentDirectory()
     {

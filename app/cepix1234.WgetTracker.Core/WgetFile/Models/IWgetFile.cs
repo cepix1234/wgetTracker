@@ -13,16 +13,10 @@ public interface IWgetFile
     string Direcory { get; }
 
     /// <summary>
-    /// Get size of the file being downloaded.
-    /// </summary>
-    /// <returns>Size in Bytes</returns>
-    string Size();
-
-    /// <summary>
     /// Get current file download status.
     /// </summary>
     /// <returns>Return download status in Bytes</returns>
-    string Status();
+    string? Status();
 
     /// <summary>
     /// Name of file being download.

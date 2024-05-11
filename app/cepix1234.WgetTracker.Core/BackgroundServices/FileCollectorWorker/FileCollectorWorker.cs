@@ -16,5 +16,4 @@ public class FileCollectorWorker(IOptions<AppSettings> appSettings, IFileCollect
             await Task.Delay(TimeSpan.FromSeconds(_appSettings.FileCollectionTaskTimout), stoppingToken);
         }
     }
-
 }
