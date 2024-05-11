@@ -54,7 +54,7 @@ public class WgetStatusCommand: AsyncCommand<WgetStatusCommandSettings>
         }
         catch (Exception ex)
         {
-            Debug.WriteLine(ex.ToString());
+            Console.WriteLine(ex.ToString());
             return 1;
         }
     }
