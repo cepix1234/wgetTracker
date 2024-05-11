@@ -43,7 +43,7 @@ public class WgetStatusCommand: AsyncCommand<WgetStatusCommandSettings>
                 {
                     _consoleLogger.Log(string.Format("{0}{1}:", directory, Path.DirectorySeparatorChar));
                     foreach (IWgetFile wgetFile in wgetFiles.Where(wgetFile =>
-                                 wgetFile.Direcory == directory && wgetFile.Exists()))
+                                 wgetFile.Direcory == directory))
                     {
                         _consoleLogger.Log(wgetFile.ToString());
                     }

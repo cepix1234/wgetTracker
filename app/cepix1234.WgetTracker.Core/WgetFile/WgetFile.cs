@@ -40,17 +40,23 @@ public class WgetFile : IWgetFile
 
     public override String ToString()
     {
-        string size = this.Size();
-        float percentage = 0;
-        if (UInt128.TryParse(size, out UInt128 intSize))
+        if (!Exists())
         {
-            percentage = (float)(UInt128.Parse(this.Status()) / intSize) * 100;
+            return "";
+        }
+        string wgetSize = Size();
+        string wgetStatus = Status();
+        bool wgetFinished = DownloadFinished();
+        float percentage = 0;
+        if (UInt128.TryParse(wgetSize, out UInt128 intSize))
+        {
+            percentage = (float)(UInt128.Parse(wgetStatus) / intSize) * 100;
         }
         
-        if (DownloadFinished())
+        if (wgetFinished)
         {
-            return String.Format("{0} : |DONE| {1}%, {2}B -> {3}B", this._fileName
-                , 100, this.Status(), size );
+            return String.Format("{0} : |DONE| {1}%, {2}B -> {3}B", _fileName
+                , 100, wgetStatus, wgetSize );
         }
         var percentageDone = (int)percentage / 2;
         var percentageTodo = 50 - percentageDone;
@@ -65,13 +71,13 @@ public class WgetFile : IWgetFile
             percentageDisplay = String.Format("{0}{1}", percentageDisplay," ");
         }
         
-        return String.Format("{0} : |{1}| {2}%, {3}B -> {4}B", this._fileName,
-            percentageDisplay, (int)percentage, this.Status(), size );
+        return String.Format("{0} : |{1}| {2}%, {3}B -> {4}B", _fileName,
+            percentageDisplay, (int)percentage, wgetStatus, wgetSize );
     }
 
     public Boolean Exists()
     {
-        return File.Exists(this.FilePath);
+        return File.Exists(FilePath);
     }
 
     private Boolean DownloadFinished()
