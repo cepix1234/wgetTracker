@@ -1,4 +1,5 @@
-﻿using cepix1234.WgetTracker.Core.BackgroundServices.FileCollectorWorker;
+﻿using System.Diagnostics;
+using cepix1234.WgetTracker.Core.BackgroundServices.FileCollectorWorker;
 using cepix1234.WgetTracker.Core.BackgroundServices.FileCollectorWorker.Models;
 using cepix1234.WgetTracker.Core.Logging.Models;
 using cepix1234.WgetTracker.Core.Models.Application;
@@ -14,6 +15,7 @@ public class WgetStatusCommand: AsyncCommand<WgetStatusCommandSettings>
     private readonly IConsoleLogger _consoleLogger;
     private readonly IFileCollectorService _fileCollectorService;
     private readonly AppSettings _appSettings;
+    private int _previousNumberOfFiles;
     
     public WgetStatusCommand( IConsoleLogger consoleLogger, IFileCollectorService fileCollectorService, FileCollectorWorker filecollectorWorker, IOptions<AppSettings> appSettings)
     {
@@ -25,20 +27,35 @@ public class WgetStatusCommand: AsyncCommand<WgetStatusCommandSettings>
     
     public override async Task<int> ExecuteAsync(CommandContext context, WgetStatusCommandSettings settings)
     {
-        do
+        try
         {
-            _consoleLogger.ClearConsole();
-            List<IWgetFile> wgetFiles = _fileCollectorService.Files();
-            foreach (string directory in _appSettings.WgetDirectories)
+            do
             {
-                _consoleLogger.Log(string.Format("{0}{1}:", directory, Path.DirectorySeparatorChar));
-                foreach (IWgetFile wgetFile in wgetFiles.Where(wgetFile => wgetFile.Direcory == directory && wgetFile.Exists()))
+                _consoleLogger.ResetCursor();
+                List<IWgetFile> wgetFiles = _fileCollectorService.Files();
+                if (wgetFiles.Count != _previousNumberOfFiles)
                 {
-                    _consoleLogger.Log(wgetFile.ToString());
+                    _previousNumberOfFiles = wgetFiles.Count;
+                    _consoleLogger.ClearConsole();
                 }
-            }
 
-            await Task.Delay(TimeSpan.FromSeconds(1));
-        } while (true);
+                foreach (string directory in _appSettings.WgetDirectories)
+                {
+                    _consoleLogger.Log(string.Format("{0}{1}:", directory, Path.DirectorySeparatorChar));
+                    foreach (IWgetFile wgetFile in wgetFiles.Where(wgetFile =>
+                                 wgetFile.Direcory == directory && wgetFile.Exists()))
+                    {
+                        _consoleLogger.Log(wgetFile.ToString());
+                    }
+                }
+
+                await Task.Delay(TimeSpan.FromSeconds(1));
+            } while (true);
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine(ex.ToString());
+            return 1;
+        }
     }
 }

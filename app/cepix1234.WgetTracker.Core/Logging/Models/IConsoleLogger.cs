@@ -12,4 +12,9 @@ public interface IConsoleLogger
     /// Clear console screen.
     /// </summary>
     void ClearConsole();
+
+    /// <summary>
+    /// Rest cursor to 0,0.
+    /// </summary>
+    void ResetCursor();
 }
