@@ -28,6 +28,7 @@ public class WgetStatusCommand : AsyncCommand<WgetStatusCommandSettings>
 
     public override async Task<int> ExecuteAsync(CommandContext context, WgetStatusCommandSettings settings)
     {
+        _consoleLogger.ClearConsole();
         try
         {
             do
