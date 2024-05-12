@@ -27,7 +27,11 @@ public class WgetFile : IWgetFile
 
     public string? Status()
     {
-        IWgetFileStatusReturn result = _wgetOutputFileReader.FileStatus(FilePath, _lastLineReadStatus);
+        var result = _wgetOutputFileReader.FileStatus(FilePath, _lastLineReadStatus);
+        if (result == null)
+        {
+            return null;
+        }
         _lastLineReadStatus = result.LineRead;
         return result.FileStatus;
     }
