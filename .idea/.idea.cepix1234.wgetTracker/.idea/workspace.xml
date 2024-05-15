@@ -7,7 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355ce7e7-cd1e-40e5-9f5c-740f0103f173" name="Changes" comment="" />
+    <list default="true" id="355ce7e7-cd1e-40e5-9f5c-740f0103f173" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/WgetExample3.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cepix1234.wgetTracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/cepix1234.WgetTracker.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/app/cepix1234.WgetTracker.App/cepix1234.WgetTracker.App.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,6 +155,8 @@
       <workItem from="1715430355182" duration="1006000" />
       <workItem from="1715455935241" duration="3660000" />
       <workItem from="1715539240721" duration="1423000" />
+      <workItem from="1715540802083" duration="215000" />
+      <workItem from="1715750663672" duration="444000" />
     </task>
     <task id="LOCAL-00001" summary="Add unit tests for collector service and wget output file reader.&#10;Added class for wget file, wget output file reader, and collector service to get all wget files.">
       <option name="closed" value="true" />
@@ -312,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715540636111</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Add init console clear.">
+      <option name="closed" value="true" />
+      <created>1715540959170</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1715540959170</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +356,8 @@
     <MESSAGE value="Fix problem when file is delete but we still read from it." />
     <MESSAGE value="Fix when file gets deleted to no error is thrown." />
     <MESSAGE value="Fix NullPointerException on file deletion." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix NullPointerException on file deletion." />
+    <MESSAGE value="Add init console clear." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add init console clear." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

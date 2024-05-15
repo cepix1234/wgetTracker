@@ -51,7 +51,7 @@ public class WgetOutputFileReader(
 
     public Boolean FileSaved(string filePath)
     {
-        if (FileExists(filePath))
+        if (!FileExists(filePath))
         {
             return false;
         }
