@@ -1,5 +1,4 @@
-﻿using cepix1234.WgetTracker.Core.Logging.Models;
-using cepix1234.WgetTracker.Core.WgetOutputReader;
+﻿using cepix1234.WgetTracker.Core.WgetOutputReader;
 using cepix1234.WgetTracker.Core.WgetOutputReader.Models;
 using cepix1234.WgetTracker.Core.Wrappers.Models;
 using Moq;
@@ -26,11 +25,7 @@ public class WgetOutputFileReaderTest
             "    50K .......... .......... .......... .......... ..........  5%  319K 5s",
             "   100K .......... .......... .......... .......... ..........  8%  553K 4s"
         });
-        var consoleLoggerStub = new Mock<IConsoleLogger>();
-        consoleLoggerStub.Setup(cls => cls.ClearConsole()).Callback(() => {});
-        consoleLoggerStub.Setup(cls => cls.ResetCursor()).Callback(() => {});
-        consoleLoggerStub.Setup(cls => cls.Log(It.IsAny<string>())).Callback(() => {});
-        wgetReader = new WgetOutputFileReader(fileReaderStub.Object, consoleLoggerStub.Object);
+        wgetReader = new WgetOutputFileReader(fileReaderStub.Object);
     }
 
     [Test]
@@ -70,11 +65,8 @@ public class WgetOutputFileReaderTest
             "     0K .......... .......... .......... .......... ..........  2%  345K 5s",
             "    50K .......... .......... .......... .......... ..........  5%  319K 5s",
             "   100K .......... ..........                                   8%  553K 4s"
-        });var consoleLoggerStub = new Mock<IConsoleLogger>();
-        consoleLoggerStub.Setup(cls => cls.ClearConsole()).Callback(() => {});
-        consoleLoggerStub.Setup(cls => cls.ResetCursor()).Callback(() => {});
-        consoleLoggerStub.Setup(cls => cls.Log(It.IsAny<string>())).Callback(() => {});
-        wgetReader = new WgetOutputFileReader(fileReaderStub.Object, consoleLoggerStub.Object);
+        });
+        wgetReader = new WgetOutputFileReader(fileReaderStub.Object);
         IWgetFileStatusReturn size = wgetReader.FileStatus("WgetExample.out", 7);
         Assert.That(size.FileStatus, Is.EqualTo("122880"));
         Assert.That(size.LineRead, Is.EqualTo(8));

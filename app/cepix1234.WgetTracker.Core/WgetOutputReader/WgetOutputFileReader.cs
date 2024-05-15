@@ -1,13 +1,11 @@
-﻿using cepix1234.WgetTracker.Core.Logging.Models;
-using cepix1234.WgetTracker.Core.Utils;
+﻿using cepix1234.WgetTracker.Core.Utils;
 using cepix1234.WgetTracker.Core.WgetOutputReader.Models;
 using cepix1234.WgetTracker.Core.Wrappers.Models;
 
 namespace cepix1234.WgetTracker.Core.WgetOutputReader;
 
 public class WgetOutputFileReader(
-    IFileReader fileReader,
-    IConsoleLogger _consoleLogger) : IWgetOutputFileReader
+    IFileReader fileReader) : IWgetOutputFileReader
 {
     public string FileSize(string filePath)
     {
@@ -36,7 +34,7 @@ public class WgetOutputFileReader(
         }
         catch (FileNotFoundException ex)
         {
-            _consoleLogger.Log(ex.ToString());
+            // we can ignore this.
         }
 
         return null;
@@ -64,7 +62,7 @@ public class WgetOutputFileReader(
         }
         catch (FileNotFoundException ex)
         {
-            _consoleLogger.Log(ex.ToString());
+            // we can ignore this.
         }
 
         return false;

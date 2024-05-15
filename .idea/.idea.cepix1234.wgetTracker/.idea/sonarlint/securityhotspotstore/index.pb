@@ -77,3 +77,5 @@ tapp/cepix1234.WgetTracker.Core/obj/Debug/net8.0/cepix1234.WgetTracker.Core.Gene
 Tapp/cepix1234.WgetTracker.Infrastructure/cepix1234.WgetTracker.Infrastructure.csproj,e\6\e695472eb347e011a5f22de9e8e9d5b148ba5ff8
 ^
 .app/cepix1234.WgetTracker.App/WgetExample2.out,5\e\5e092c245db6efc69309788cbac0480b327b5747
+^
+.app/cepix1234.WgetTracker.App/WgetExample3.out,a\8\a876b090c9cccadaba6f710105b63a442c20124c
