@@ -85,6 +85,6 @@ public class WgetFile : IWgetFile
 
     private Boolean DownloadFinished()
     {
-        return _wgetOutputFileReader.FileSaved(FilePath);
+        return _wgetOutputFileReader.FileSaved(FilePath) || _wgetOutputFileReader.FileComplete(FilePath);
     }
 }

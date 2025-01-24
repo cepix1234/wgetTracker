@@ -68,6 +68,27 @@ public class WgetOutputFileReader(
         return false;
     }
 
+    public Boolean FileComplete(string filePath)
+    {
+        if (!FileExists(filePath))
+        {
+            return false;
+        }
+
+        try
+        {
+            string[] savedLines = fileReader.readFileFiles(filePath).Skip(6).Where(line => line.Contains("The file is already fully retrieved; nothing to do."))
+                .ToArray();
+            return savedLines.Length > 0;
+        }
+        catch (FileNotFoundException ex)
+        {
+            // we can ignore this.
+        }
+
+        return false;
+    }
+
     public Boolean FileExists(string filePath)
     {
         return File.Exists(filePath);
