@@ -42,7 +42,12 @@
     <ItemGroup>
         <None Update="WgetExample3.out">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
+            </None>
+        </ItemGroup>
+    <ItemGroup>
+        <None Update="WgetExample4.out">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+            </None>
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\cepix1234.WgetTracker.Core\cepix1234.WgetTracker.Core.csproj">
