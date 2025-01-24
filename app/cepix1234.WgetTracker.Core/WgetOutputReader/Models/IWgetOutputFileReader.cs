@@ -34,7 +34,7 @@ public interface IWgetOutputFileReader
     Boolean FileSaved(string filePath);
 
     /// <summary>
-    /// Is file saved/finished downloading.
+    /// Was file already fully downloaded before.
     /// </summary>
     /// <param name="filePath">Path to wget output file.</param>
     /// <returns>Is file saved.</returns>
